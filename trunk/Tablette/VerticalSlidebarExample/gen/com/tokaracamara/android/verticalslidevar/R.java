@@ -8,48 +8,111 @@
 package com.tokaracamara.android.verticalslidevar;
 
 public final class R {
+    public static final class array {
+        public static final int categorie=0x7f070000;
+    }
     public static final class attr {
+    }
+    public static final class color {
+        public static final int blanc=0x7f080004;
+        public static final int jaune=0x7f080001;
+        public static final int orange=0x7f080002;
+        public static final int rouge=0x7f080000;
+        public static final int vert=0x7f080003;
     }
     public static final class drawable {
         public static final int icon=0x7f020000;
         public static final int progress_vertical=0x7f020001;
-        public static final int seek_thumb=0x7f020002;
-        public static final int seek_thumb_normal=0x7f020003;
-        public static final int seek_thumb_normal_wide=0x7f020004;
-        public static final int seek_thumb_pressed=0x7f020005;
-        public static final int seek_thumb_pressed_wide=0x7f020006;
-        public static final int seek_thumb_selected=0x7f020007;
-        public static final int seek_thumb_selected_wide=0x7f020008;
-        public static final int seek_thumb_wide=0x7f020009;
+        public static final int regilight=0x7f020002;
+        public static final int seek_thumb=0x7f020003;
+        public static final int seek_thumb_normal=0x7f020004;
+        public static final int seek_thumb_normal_wide=0x7f020005;
+        public static final int seek_thumb_pressed=0x7f020006;
+        public static final int seek_thumb_pressed_wide=0x7f020007;
+        public static final int seek_thumb_selected=0x7f020008;
+        public static final int seek_thumb_selected_wide=0x7f020009;
+        public static final int seek_thumb_wide=0x7f02000a;
     }
     public static final class id {
-        public static final int LinearLayout01=0x7f050000;
-        public static final int ProgressBar01=0x7f050001;
-        public static final int SeekBar01=0x7f050002;
-        public static final int SeekBar02=0x7f050003;
+        public static final int RelativeLayout1=0x7f090000;
+        public static final int SeekBar01=0x7f090002;
+        public static final int SeekBar02=0x7f090001;
+        public static final int SeekBar03=0x7f090003;
+        public static final int SeekBar04=0x7f090004;
+        public static final int SeekBar05=0x7f090005;
+        public static final int SeekBar06=0x7f090006;
+        public static final int SeekBar07=0x7f090007;
+        public static final int SeekBar08=0x7f090008;
+        public static final int SeekBar09=0x7f090009;
+        public static final int SeekBar10=0x7f09000a;
+        public static final int SeekBar11=0x7f09000b;
+        public static final int SeekBar12=0x7f09000c;
+        public static final int button1=0x7f090020;
+        public static final int editText1=0x7f09000d;
+        public static final int editText10=0x7f090016;
+        public static final int editText11=0x7f090017;
+        public static final int editText12=0x7f090018;
+        public static final int editText2=0x7f09000e;
+        public static final int editText3=0x7f09000f;
+        public static final int editText4=0x7f090010;
+        public static final int editText5=0x7f090011;
+        public static final int editText6=0x7f090012;
+        public static final int editText7=0x7f090013;
+        public static final int editText8=0x7f090014;
+        public static final int editText9=0x7f090015;
+        public static final int fonduNoir=0x7f09001a;
+        public static final int imageView1=0x7f09001d;
+        public static final int progressBar1=0x7f09001e;
+        public static final int retourPrincipal=0x7f09001b;
+        public static final int spinnerCss=0x7f090021;
+        public static final int suivantAccueil=0x7f09001c;
+        public static final int tv=0x7f09001f;
+        public static final int vueAction=0x7f090019;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int main2=0x7f030001;
+        public static final int main3=0x7f030002;
+        public static final int mainspinner=0x7f030003;
+    }
+    public static final class raw {
+        public static final int son=0x7f040000;
     }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
+        public static final int Projecteur1=0x7f060002;
+        public static final int Projecteur10=0x7f06000b;
+        public static final int Projecteur11=0x7f06000c;
+        public static final int Projecteur12=0x7f06000d;
+        public static final int Projecteur2=0x7f060003;
+        public static final int Projecteur3=0x7f060004;
+        public static final int Projecteur4=0x7f060005;
+        public static final int Projecteur5=0x7f060006;
+        public static final int Projecteur6=0x7f060007;
+        public static final int Projecteur7=0x7f060008;
+        public static final int Projecteur8=0x7f060009;
+        public static final int Projecteur9=0x7f06000a;
+        public static final int app_name=0x7f060001;
+        public static final int descriptionSuivant=0x7f06000e;
+        public static final int hello=0x7f060000;
+    }
+    public static final class style {
+        public static final int ThemeGeneral=0x7f050000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ProgressBar.
            <p>Includes the following attributes:</p>
-           <table border="2" width="85%" align="center" frame="hsides" rules="all" cellpadding="5">
+           <table>
            <colgroup align="left" />
            <colgroup align="left" />
-           <tr><th>Attribute<th>Summary</tr>
-           <tr><th><code>{@link #ProgressBar_android_max com.tokaracamara.android.verticalslidevar:android_max}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_maxHeight com.tokaracamara.android.verticalslidevar:android_maxHeight}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_maxWidth com.tokaracamara.android.verticalslidevar:android_maxWidth}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_minHeight com.tokaracamara.android.verticalslidevar:android_minHeight}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_minWidth com.tokaracamara.android.verticalslidevar:android_minWidth}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_progress com.tokaracamara.android.verticalslidevar:android_progress}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_progressDrawable com.tokaracamara.android.verticalslidevar:android_progressDrawable}</code><td></tr>
-           <tr><th><code>{@link #ProgressBar_android_secondaryProgress com.tokaracamara.android.verticalslidevar:android_secondaryProgress}</code><td></tr>
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ProgressBar_android_max com.tokaracamara.android.verticalslidevar:android_max}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_maxHeight com.tokaracamara.android.verticalslidevar:android_maxHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_maxWidth com.tokaracamara.android.verticalslidevar:android_maxWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_minHeight com.tokaracamara.android.verticalslidevar:android_minHeight}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_minWidth com.tokaracamara.android.verticalslidevar:android_minWidth}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_progress com.tokaracamara.android.verticalslidevar:android_progress}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_progressDrawable com.tokaracamara.android.verticalslidevar:android_progressDrawable}</code></td><td></td></tr>
+           <tr><td><code>{@link #ProgressBar_android_secondaryProgress com.tokaracamara.android.verticalslidevar:android_secondaryProgress}</code></td><td></td></tr>
            </table>
            @see #ProgressBar_android_max
            @see #ProgressBar_android_maxHeight
@@ -114,12 +177,12 @@ public final class R {
         public static final int ProgressBar_android_secondaryProgress = 4;
         /** Attributes that can be used with a SeekBar.
            <p>Includes the following attributes:</p>
-           <table border="2" width="85%" align="center" frame="hsides" rules="all" cellpadding="5">
+           <table>
            <colgroup align="left" />
            <colgroup align="left" />
-           <tr><th>Attribute<th>Summary</tr>
-           <tr><th><code>{@link #SeekBar_android_thumb com.tokaracamara.android.verticalslidevar:android_thumb}</code><td></tr>
-           <tr><th><code>{@link #SeekBar_android_thumbOffset com.tokaracamara.android.verticalslidevar:android_thumbOffset}</code><td></tr>
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SeekBar_android_thumb com.tokaracamara.android.verticalslidevar:android_thumb}</code></td><td></td></tr>
+           <tr><td><code>{@link #SeekBar_android_thumbOffset com.tokaracamara.android.verticalslidevar:android_thumbOffset}</code></td><td></td></tr>
            </table>
            @see #SeekBar_android_thumb
            @see #SeekBar_android_thumbOffset
@@ -141,11 +204,11 @@ public final class R {
         public static final int SeekBar_android_thumbOffset = 1;
         /** Attributes that can be used with a Theme.
            <p>Includes the following attributes:</p>
-           <table border="2" width="85%" align="center" frame="hsides" rules="all" cellpadding="5">
+           <table>
            <colgroup align="left" />
            <colgroup align="left" />
-           <tr><th>Attribute<th>Summary</tr>
-           <tr><th><code>{@link #Theme_android_disabledAlpha com.tokaracamara.android.verticalslidevar:android_disabledAlpha}</code><td></tr>
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #Theme_android_disabledAlpha com.tokaracamara.android.verticalslidevar:android_disabledAlpha}</code></td><td></td></tr>
            </table>
            @see #Theme_android_disabledAlpha
          */

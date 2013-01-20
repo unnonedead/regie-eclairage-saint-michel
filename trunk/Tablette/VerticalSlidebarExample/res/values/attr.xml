@@ -18,4 +18,10 @@
     <declare-styleable name="Theme">
         <attr name="android:disabledAlpha" />
     </declare-styleable>
+    
+    <style name="ThemeGeneral" parent="android:Theme.Light.NoTitleBar">		
+		<item name="android:typeface">serif</item>
+	</style>
+   
+    
 </resources>
