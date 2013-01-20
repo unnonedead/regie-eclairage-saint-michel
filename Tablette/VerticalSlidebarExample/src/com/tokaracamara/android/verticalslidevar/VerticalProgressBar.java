@@ -14,7 +14,6 @@ import android.graphics.drawable.StateListDrawable;
 import android.graphics.drawable.shapes.RoundRectShape;
 import android.graphics.drawable.shapes.Shape;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewDebug;
@@ -130,7 +129,7 @@ public class VerticalProgressBar extends View {
             return newBg;
 
         } else if (drawable instanceof StateListDrawable) {
-            StateListDrawable in = (StateListDrawable) drawable;
+           // StateListDrawable in = (StateListDrawable) drawable;
             StateListDrawable out = new StateListDrawable();
             /*int numStates = in.getStateCount();
             for (int i = 0; i < numStates; i++) {
