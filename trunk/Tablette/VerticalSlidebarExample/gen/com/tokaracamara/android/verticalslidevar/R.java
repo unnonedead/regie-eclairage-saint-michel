@@ -15,6 +15,7 @@ public final class R {
     }
     public static final class color {
         public static final int blanc=0x7f080004;
+        public static final int gris=0x7f080005;
         public static final int jaune=0x7f080001;
         public static final int orange=0x7f080002;
         public static final int rouge=0x7f080000;
@@ -47,7 +48,6 @@ public final class R {
         public static final int SeekBar10=0x7f09000a;
         public static final int SeekBar11=0x7f09000b;
         public static final int SeekBar12=0x7f09000c;
-        public static final int button1=0x7f090020;
         public static final int editText1=0x7f09000d;
         public static final int editText10=0x7f090016;
         public static final int editText11=0x7f090017;
@@ -64,7 +64,7 @@ public final class R {
         public static final int imageView1=0x7f09001d;
         public static final int progressBar1=0x7f09001e;
         public static final int retourPrincipal=0x7f09001b;
-        public static final int spinnerCss=0x7f090021;
+        public static final int spinnerCss=0x7f090020;
         public static final int suivantAccueil=0x7f09001c;
         public static final int tv=0x7f09001f;
         public static final int vueAction=0x7f090019;
