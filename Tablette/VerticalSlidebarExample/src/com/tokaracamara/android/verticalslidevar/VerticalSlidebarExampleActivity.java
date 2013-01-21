@@ -4,6 +4,8 @@ package com.tokaracamara.android.verticalslidevar;
 import com.tokaracamara.android.verticalslidevar.VerticalSeekBar.OnSeekBarChangeListener;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -14,7 +16,7 @@ import android.widget.TextView;
 public class VerticalSlidebarExampleActivity extends Activity {
     /** Called when the activity is first created. */
     
-	public socket socketClient = pageAccueil.socketClient;;
+	public socket socketClient = pageAccueil.socketClient;
 	private VerticalSeekBar[] tabSeek = new VerticalSeekBar[12];
 	private EditText[] tabInput = new EditText[12];
     protected ImageButton changerVue;
@@ -24,49 +26,87 @@ public class VerticalSlidebarExampleActivity extends Activity {
     int[] projo = new int[512];
     
     public void onCreate(Bundle savedInstanceState) {
-    	/*StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
-        .detectDiskReads()
-        .detectDiskWrites()
-        .detectNetwork()
-        .penaltyLog()
-        .build());*/
     	super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        /*Spinner mySpinner = (Spinner)findViewById(R.id.Spinner01);
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
-          R.layout.mainspinner, R.id.spinnerItem, items);
-        mySpinner.setAdapter(adapter);*/
-
-        this.initialiseTableau(100,1);
+        this.initialiseTableau(100,0);
         this.initialiseTableauInput();
-        
-    }
+        Log.i("client", socketClient.toString());
+    	}
+
     
+    
+        public boolean onKeyDown(int keyCode, KeyEvent event)  {
+            if (Integer.parseInt(android.os.Build.VERSION.SDK) < 5
+                    && keyCode == KeyEvent.KEYCODE_BACK
+                    && event.getRepeatCount() == 0) {
+                Log.d("CDA", "onKeyDown Called");
+                onBackPressed();
+            	}
+            return super.onKeyDown(keyCode, event);
+        	}
+    
+        public void onBackPressed() {
+        	   Log.d("CDA", "onBackPressed Called");
+        	   DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+                   @Override
+                   public void onClick(DialogInterface dialog, int which) {
+                       switch (which){
+                       case DialogInterface.BUTTON_POSITIVE:
+                    	   System.exit(1);
+                           break;
+                       case DialogInterface.BUTTON_NEGATIVE:
+                           break;
+                       }
+                   }
+               };
+        	   AlertDialog.Builder builder = new AlertDialog.Builder(this);
+               builder.setMessage("Voulez vous quiter l'application ?").setPositiveButton("Oui", dialogClickListener)
+                   .setNegativeButton("Non", dialogClickListener).show();
+        	}  
+       
   	public void tableauProjecteur()
     {  
   		char tabChar[]= new char[512];
     	for(int i = 0; i < 512 ; i++)
     	{
-    		if(projo[i] == 0 || projo == null)
+    		if(i < 12)
+    		{
+    			if(projo[i] == 0 || projo == null)
+    				projo[i]=1;
+    			projo[i] = (int)((tabSeek[i].getProgress())*2.55);
+    		}
+    		else
     		{
     			projo[i] = 1;
     		}
-    		if(i < 12)
-    		{
-    			if(projo[i] != 0)
-    			projo[i] = (int)((tabSeek[i].getProgress())*2.55);
-    			else
-    				projo[i] = 1;	
-    		}
-    		else
-    		projo[i] = 1;
     		tabChar[i] = (char)projo[i]; 
-    		
-    		
-    		
-    	}
-    	
+    	}	
+    	try
+    	{
     	socketClient.envoyerMessage(tabChar);
+    	}
+    	catch(Exception e)
+    	{
+    		DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                case DialogInterface.BUTTON_POSITIVE:
+                	Intent intentAccueilAction = new Intent(VerticalSlidebarExampleActivity.this, pageAccueil.class);
+                    startActivity(intentAccueilAction);
+                    finish();
+                    break;
+                case DialogInterface.BUTTON_NEGATIVE:
+                	System.exit(1);
+                    break;
+                }
+            }
+        };
+ 	   AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Le serveur est introuvable voulez vous vous reconnecter ?").setPositiveButton("oui", dialogClickListener)
+            .setNegativeButton("Non", dialogClickListener).show();				
+    		 
+    	}
     }
   	
     public void initialiseTableau(int max, int enCour)
