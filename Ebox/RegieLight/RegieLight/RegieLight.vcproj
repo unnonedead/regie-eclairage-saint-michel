@@ -60,6 +60,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="ftd2xx.lib"
 				LinkIncremental="2"
 				GenerateDebugInformation="true"
 				SubSystem="1"
@@ -213,6 +214,22 @@
 				>
 			</File>
 			<File
+				RelativePath=".\FTD2XX.H"
+				>
+			</File>
+			<File
+				RelativePath=".\pthread.h"
+				>
+			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
+			<File
+				RelativePath=".\sched.h"
+				>
+			</File>
+			<File
 				RelativePath=".\SocketServeur.h"
 				>
 			</File>
@@ -230,7 +247,19 @@
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
+			<File
+				RelativePath=".\RegieLight.rc"
+				>
+			</File>
 		</Filter>
+		<File
+			RelativePath=".\FTD2XX.lib"
+			>
+		</File>
+		<File
+			RelativePath=".\Debug\pthreadVCE2.lib"
+			>
+		</File>
 		<File
 			RelativePath=".\ReadMe.txt"
 			>

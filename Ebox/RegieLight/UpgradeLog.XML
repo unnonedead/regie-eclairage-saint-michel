@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RegieLight">
+</Property><Property Name="Fichier solution" Value="C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight.sln">
+</Property><Property Name="Fichier d'options utilisateur" Value="C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight.suo">
+</Property><Property Name="Date" Value="jeudi 17 janvier 2013">
+</Property><Property Name="Time" Value="10:57">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RegieLight.sln" Description="Fichier correctement sauvegardé en tant que C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="RegieLight.suo" Description="Fichier correctement sauvegardé en tant que C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight.suo.old">
+</Event><Event ErrorLevel="0" Project="RegieLight" Source="RegieLight\RegieLight.vcproj" Description="Converting project file 'C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight\RegieLight.vcproj'.">
+</Event><Event ErrorLevel="1" Project="RegieLight" Source="RegieLight\RegieLight.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="RegieLight" Source="RegieLight\RegieLight.vcproj" Description="Done converting to new project file 'C:\Users\Maxime\Documents\Visual Studio 2008\Projects\RegieLight\RegieLight\RegieLight.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="RegieLight" Source="RegieLight\RegieLight.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RegieLight.sln" Description="Solution correctement convertie">
+</Event><Event ErrorLevel="3" Project="" Source="RegieLight.sln" Description="Converted">
+</Event></UpgradeLog>
