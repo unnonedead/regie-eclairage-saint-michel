@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/gris" >
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar02"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar01"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/SeekBar01"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar03"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar02"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar02"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar04"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar03"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar03"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar05"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar04"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar04"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar06"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar05"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar05"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar07"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar06"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar06"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar08"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar07"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar07"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar09"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar08"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar08"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar10"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar09"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar09"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar11"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar10"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar10"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar12"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignTop="@+id/SeekBar11"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="80dp"
+        android:layout_toRightOf="@+id/SeekBar11"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/SeekBar01"
+        android:layout_alignLeft="@+id/SeekBar01"
+        android:layout_alignRight="@+id/SeekBar01"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/SeekBar02"
+        android:layout_alignRight="@+id/SeekBar02"
+        android:ems="10"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignLeft="@+id/SeekBar03"
+        android:layout_toLeftOf="@+id/SeekBar04"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText3"
+        android:layout_alignLeft="@+id/SeekBar04"
+        android:layout_toLeftOf="@+id/SeekBar05"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignLeft="@+id/SeekBar05"
+        android:layout_alignRight="@+id/SeekBar05"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText5"
+        android:layout_alignLeft="@+id/SeekBar06"
+        android:layout_alignRight="@+id/SeekBar06"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignLeft="@+id/SeekBar07"
+        android:layout_alignRight="@+id/SeekBar07"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText7"
+        android:layout_alignBottom="@+id/editText7"
+        android:layout_alignLeft="@+id/SeekBar08"
+        android:layout_toLeftOf="@+id/SeekBar09"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignLeft="@+id/SeekBar09"
+        android:layout_alignRight="@+id/SeekBar09"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editText9"
+        android:layout_alignLeft="@+id/SeekBar10"
+        android:layout_alignRight="@+id/SeekBar10"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText10"
+        android:layout_alignBottom="@+id/editText10"
+        android:layout_alignLeft="@+id/SeekBar11"
+        android:layout_alignRight="@+id/SeekBar11"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText11"
+        android:layout_alignBottom="@+id/editText11"
+        android:layout_alignLeft="@+id/SeekBar12"
+        android:layout_alignRight="@+id/SeekBar12"
+        android:ems="10"
+        android:inputType="number" />
+
+    <!-- <ImageButton
+        android:id="@+id/changerVue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/descriptionSuivant"
+        android:src="@android:drawable/ic_menu_set_as" />-->
+
+    <com.tokaracamara.android.verticalslidevar.VerticalSeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="21dp"
+        android:progressDrawable="@drawable/progress_vertical"
+        android:thumb="@drawable/seek_thumb_wide" />
+
+</RelativeLayout>
