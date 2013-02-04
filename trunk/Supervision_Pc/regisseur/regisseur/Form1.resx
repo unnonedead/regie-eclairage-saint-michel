@@ -117,4 +117,559 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 43</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trackBar1.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="trackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
+    <value>trackBar1</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="trackBar11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>486, 43</value>
+  </data>
+  <data name="trackBar11.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar11.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;trackBar11.Name" xml:space="preserve">
+    <value>trackBar11</value>
+  </data>
+  <data name="&gt;&gt;trackBar11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar11.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="trackBar10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 43</value>
+  </data>
+  <data name="trackBar10.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar10.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;trackBar10.Name" xml:space="preserve">
+    <value>trackBar10</value>
+  </data>
+  <data name="&gt;&gt;trackBar10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar10.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar10.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="trackBar9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 43</value>
+  </data>
+  <data name="trackBar9.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar9.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;trackBar9.Name" xml:space="preserve">
+    <value>trackBar9</value>
+  </data>
+  <data name="&gt;&gt;trackBar9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar9.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar9.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="trackBar8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>345, 43</value>
+  </data>
+  <data name="trackBar8.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar8.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;trackBar8.Name" xml:space="preserve">
+    <value>trackBar8</value>
+  </data>
+  <data name="&gt;&gt;trackBar8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar8.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar8.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="trackBar7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 43</value>
+  </data>
+  <data name="trackBar7.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar7.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;trackBar7.Name" xml:space="preserve">
+    <value>trackBar7</value>
+  </data>
+  <data name="&gt;&gt;trackBar7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar7.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar7.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="trackBar6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 43</value>
+  </data>
+  <data name="trackBar6.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar6.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;trackBar6.Name" xml:space="preserve">
+    <value>trackBar6</value>
+  </data>
+  <data name="&gt;&gt;trackBar6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="trackBar5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 43</value>
+  </data>
+  <data name="trackBar5.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar5.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;trackBar5.Name" xml:space="preserve">
+    <value>trackBar5</value>
+  </data>
+  <data name="&gt;&gt;trackBar5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar5.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="trackBar4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 43</value>
+  </data>
+  <data name="trackBar4.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar4.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Name" xml:space="preserve">
+    <value>trackBar4</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="trackBar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 43</value>
+  </data>
+  <data name="trackBar3.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar3.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Name" xml:space="preserve">
+    <value>trackBar3</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="trackBar2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 43</value>
+  </data>
+  <data name="trackBar2.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar2.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;trackBar2.Name" xml:space="preserve">
+    <value>trackBar2</value>
+  </data>
+  <data name="&gt;&gt;trackBar2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tb_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="tb_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 20</value>
+  </data>
+  <data name="tb_1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="tb_1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tb_1.Name" xml:space="preserve">
+    <value>tb_1</value>
+  </data>
+  <data name="&gt;&gt;tb_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;tb_1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btn_1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btn_1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 299</value>
+  </data>
+  <data name="btn_1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 23</value>
+  </data>
+  <data name="btn_1.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btn_1.Name" xml:space="preserve">
+    <value>btn_1</value>
+  </data>
+  <data name="&gt;&gt;btn_1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btn_1.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="trackBar12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>533, 43</value>
+  </data>
+  <data name="trackBar12.Orientation" type="System.Windows.Forms.Orientation, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="trackBar12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 250</value>
+  </data>
+  <data name="trackBar12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;trackBar12.Name" xml:space="preserve">
+    <value>trackBar12</value>
+  </data>
+  <data name="&gt;&gt;trackBar12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;trackBar12.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;trackBar12.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>594, 332</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Projecteurs</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btn_conn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 171</value>
+  </data>
+  <data name="btn_conn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 33</value>
+  </data>
+  <data name="btn_conn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btn_conn.Text" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="&gt;&gt;btn_conn.Name" xml:space="preserve">
+    <value>btn_conn</value>
+  </data>
+  <data name="&gt;&gt;btn_conn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_conn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_conn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tb_ip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 72</value>
+  </data>
+  <data name="tb_ip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="tb_ip.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="tb_ip.Text" xml:space="preserve">
+    <value>192.168.100.157</value>
+  </data>
+  <data name="&gt;&gt;tb_ip.Name" xml:space="preserve">
+    <value>tb_ip</value>
+  </data>
+  <data name="&gt;&gt;tb_ip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_ip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_ip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lbl_ip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_ip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 75</value>
+  </data>
+  <data name="lbl_ip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="lbl_ip.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lbl_ip.Text" xml:space="preserve">
+    <value>IP :</value>
+  </data>
+  <data name="&gt;&gt;lbl_ip.Name" xml:space="preserve">
+    <value>lbl_ip</value>
+  </data>
+  <data name="&gt;&gt;lbl_ip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_ip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_ip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbl_port.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbl_port.Location" type="System.Drawing.Point, System.Drawing">
+    <value>613, 101</value>
+  </data>
+  <data name="lbl_port.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lbl_port.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbl_port.Text" xml:space="preserve">
+    <value>Port :</value>
+  </data>
+  <data name="&gt;&gt;lbl_port.Name" xml:space="preserve">
+    <value>lbl_port</value>
+  </data>
+  <data name="&gt;&gt;lbl_port.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbl_port.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbl_port.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btn_envoi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 249</value>
+  </data>
+  <data name="btn_envoi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 33</value>
+  </data>
+  <data name="btn_envoi.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btn_envoi.Text" xml:space="preserve">
+    <value>Envoyer</value>
+  </data>
+  <data name="&gt;&gt;btn_envoi.Name" xml:space="preserve">
+    <value>btn_envoi</value>
+  </data>
+  <data name="&gt;&gt;btn_envoi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_envoi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_envoi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tb_port.Location" type="System.Drawing.Point, System.Drawing">
+    <value>651, 98</value>
+  </data>
+  <data name="tb_port.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="tb_port.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="tb_port.Text" xml:space="preserve">
+    <value>2013</value>
+  </data>
+  <data name="&gt;&gt;tb_port.Name" xml:space="preserve">
+    <value>tb_port</value>
+  </data>
+  <data name="&gt;&gt;tb_port.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb_port.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tb_port.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btn_deconnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 210</value>
+  </data>
+  <data name="btn_deconnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 33</value>
+  </data>
+  <data name="btn_deconnect.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btn_deconnect.Text" xml:space="preserve">
+    <value>Deconnection</value>
+  </data>
+  <data name="&gt;&gt;btn_deconnect.Name" xml:space="preserve">
+    <value>btn_deconnect</value>
+  </data>
+  <data name="&gt;&gt;btn_deconnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_deconnect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_deconnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>760, 358</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RegiLight</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
