@@ -200,6 +200,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\Projecteur.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\regisseur.cpp"
 				>
 			</File>
@@ -238,6 +242,10 @@
 					SubType="Designer"
 					>
 				</File>
+			</File>
+			<File
+				RelativePath=".\Projecteur.h"
+				>
 			</File>
 			<File
 				RelativePath=".\resource.h"
