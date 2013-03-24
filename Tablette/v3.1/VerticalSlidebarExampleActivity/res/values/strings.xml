@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VerticalSlidebarExampleActivity!</string>
+    <string name="app_name">RégitLight</string>
+    <string name="Projecteur1">1</string>
+    <string name="Projecteur2">2</string>
+    <string name="Projecteur3">3</string>
+    <string name="Projecteur4">4</string>
+    <string name="Projecteur5">5</string>
+    <string name="Projecteur6">6</string>
+    <string name="Projecteur7">7</string>
+    <string name="Projecteur8">8</string>
+    <string name="Projecteur9">9</string>
+    <string name="Projecteur10">10</string>
+    <string name="Projecteur11">11</string>
+    <string name="Projecteur12">12</string>
+    <string name="descriptionSuivant">Effets visuels</string>
+    <string-array name="categorie">
+        <item>Selectionner un groupe</item>
+        <item>Groupe 1</item>
+        <item>Groupe 2</item>
+        <item>Groupe 3</item>
+        <item>Groupe 4</item>
+        <item>Groupe 5</item>
+        <item>Groupe 6</item>
+    </string-array>
+    <color name="rouge">#F00</color>
+    <color name="jaune">#FF3</color>
+    <color name="orange">#f60</color>
+    <color name="vert">#3f3</color>
+    <color name="blanc">#FFF</color>
+    <color name="gris">#CECECE</color>
+    <color name="noire">#000</color>
+</resources>
